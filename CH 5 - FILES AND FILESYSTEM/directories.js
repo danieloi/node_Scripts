@@ -1,10 +1,11 @@
+//from 'Renaming and removing directories' video
 // DEMONSTRATES MOVING AND DELETING DIRECTORIES
 
 var fs = require('fs');
 
-fs.renameSync("./former_parent_dir/dir_to_move", "./dir_to_move"); //it moves the directory by renaming its path
+fs.renameSync("./former_parent_dir/dir_to_move", "./dir_to_move"); //it moves the directory dimply by renaming its path
 
-console.log('Directory Removed');
+console.log('Directory Changed');
 
 
 //REMOVING/DELETING A DIRECTORY

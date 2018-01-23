@@ -1,3 +1,6 @@
+//from 'Listing directory files' and 'Reading files' video
+//'Listing directory files' code is commented out
+
 const fs = require('fs'); //the module required for file and directory operations
 const path = require('path');
 

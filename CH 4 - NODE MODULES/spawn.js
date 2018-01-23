@@ -1,5 +1,5 @@
 // DEMONSTRATES THE SPAWN MODULE
-// It
+// It's better for async commands as opposed to exec that's better suited to synchronous commands
 
 var spawn = require('child_process').spawn;
 
@@ -9,7 +9,7 @@ cp.stdout.on("data", (data) => {//stdout is a valid property because the spawn c
     console.log(`STDOUT: ${data.toString()}`);
 });
 
-cp.on("close", ()=> {
+cp.on("close", () => {
     console.log("Child Process has ended");
     process.exit();
 });

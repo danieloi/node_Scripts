@@ -1,3 +1,5 @@
+//from 'Renaming and removing files' video
+
 var fs = require('fs');
 
 fs.renameSync("old_name.js", "new_name.json");

@@ -1,4 +1,6 @@
-// DEMONSTRATES READAVLE
+//from 'Reading files' video
+
+// DEMONSTRATES READFILE
 
 var fs = require('fs');
 
@@ -13,7 +15,7 @@ var stream = fs.createReadStream("file_to_read", "UTF-8"); //creates a readable 
 
 var data = ""; //variable we'll concatenate the content of the file we're streaming
 
-stream.once("data", () => {//uses the once method to fire this callback...once. Only one time
+stream.once("data", () => {//uses the once method to fire this callback...once. i.e. only one time
     console.log("\n\n\n");
     console.log("Started Reading the File");
     console.log("\n\n\n");
